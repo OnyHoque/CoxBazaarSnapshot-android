@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383943"
+    tools:context=".Sector_update">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="343dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/group_58" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/imageView11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/group_86" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/imageView12"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/group_85" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/imageView13"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/group_82" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/imageView14"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="9dp"
+            app:srcCompat="@drawable/group_79" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/imageView15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="9dp"
+            app:srcCompat="@drawable/group_83" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/imageView16"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/group_81" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/imageView17"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="9dp"
+            app:srcCompat="@drawable/group_84" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/imageView18"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="9dp"
+            app:srcCompat="@drawable/group_78" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/imageView19"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/group_80" />
+    </RelativeLayout>
+
+</ScrollView>

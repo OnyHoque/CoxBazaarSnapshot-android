@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383943"
+    tools:context=".aims_funds">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="343dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/group_58" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/imageView24"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/image_2" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/imageView25"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/image_3" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/imageView26"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/image_5" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/imageView27"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/image_4" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/imageView28"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/image_6" />
+    </RelativeLayout>
+
+</ScrollView>
